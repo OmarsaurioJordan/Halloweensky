@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>s_randomize();
 s_ventana();
+s_foto_monsters();
 date_set_timezone(timezone_utc);
 clicdxy[0] = 0;
 clicdxy[1] = 0;

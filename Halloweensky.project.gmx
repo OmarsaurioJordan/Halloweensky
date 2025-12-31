@@ -130,6 +130,7 @@
     <script>scripts\s_dado_tres.gml</script>
     <script>scripts\s_dificultad.gml</script>
     <script>scripts\s_intercambio.gml</script>
+    <script>scripts\s_foto_monsters.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\d_letra</font>

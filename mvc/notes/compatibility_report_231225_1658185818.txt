@@ -1,0 +1,262 @@
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_randomize\s_randomize.gml
+Converted description /// @description s_randomize();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_ventana\s_ventana.gml
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml
+ERROR: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml - 20: unexpected syntax error
+ERROR: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml - 20: malformed variable reference got new
+ERROR: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml - 20: unexpected terminal operator new
+ERROR: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml - 24: malformed variable reference got new
+ERROR: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml - 25: unexpected syntax error
+Too many errors - GML not processed : D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_split\s_split.gml
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_ani_ini\s_ani_ini.gml
+Converted description /// @description s_ani_ini(id, num_osci, num_psao);/// @param id
+/// @param  num_osci
+/// @param  num_psao
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_ani_osci\s_ani_osci.gml
+Converted description /// @description s_ani_osci(id, ind_ani, periodo, amplitud_media);/// @param id
+/// @param  ind_ani
+/// @param  periodo
+/// @param  amplitud_media
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_ani_paso\s_ani_paso.gml
+Converted description /// @description s_ani_paso(id, ind_ani, delay_paso, num_subimg);/// @param id
+/// @param  ind_ani
+/// @param  delay_paso
+/// @param  num_subimg
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_limites\s_limites.gml
+Converted description /// @description s_limites(id);/// @param id
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_errar_reloj\s_errar_reloj.gml
+Converted description /// @description s_errar_reloj(id);/// @param id
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_creamonster\s_creamonster.gml
+Converted description /// @description s_creamonster(tipo);/// @param tipo
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_sprite_monster\s_sprite_monster.gml
+Converted description /// @description s_sprite_monster(tipo_monster);/// @param tipo_monster
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_letalidad_monster\s_letalidad_monster.gml
+Converted description /// @description s_letalidad_monster(tipo_monster);/// @param tipo_monster
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_grupo_monster\s_grupo_monster.gml
+Converted description /// @description s_grupo_monster(tipo_monster);/// @param tipo_monster
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_azar_monster\s_azar_monster.gml
+Converted description /// @description s_azar_monster();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_cam_limit\s_cam_limit.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 5: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 4: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description s_cam_limit();
+Converted builtin - line 3: view_xview[0] = clamp(__view_get( e__VW.XView, 0 ), 0, room_width - __view_get( e__VW.WView, 0 )) -> __view_set( e__VW.XView, 0, clamp(__view_get( e__VW.XView, 0 ), 0, room_width - __view_get( e__VW.WView, 0 )) )
+Converted builtin - line 5: view_xview[0] = round(__view_get( e__VW.XView, 0 )) -> __view_set( e__VW.XView, 0, round(__view_get( e__VW.XView, 0 )) )
+Converted builtin - line 4: view_yview[0] = clamp(__view_get( e__VW.YView, 0 ), 0, room_height - __view_get( e__VW.HView, 0 )) -> __view_set( e__VW.YView, 0, clamp(__view_get( e__VW.YView, 0 ), 0, room_height - __view_get( e__VW.HView, 0 )) )
+Converted builtin - line 6: view_yview[0] = round(__view_get( e__VW.YView, 0 )) -> __view_set( e__VW.YView, 0, round(__view_get( e__VW.YView, 0 )) )
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_cam_move\s_cam_move.gml
+Converted builtin - line 5: view_xview[0] += clicdxy[0] - mouse_x -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (clicdxy[0] - mouse_x) )
+Converted builtin - line 6: view_yview[0] += clicdxy[1] - mouse_y -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (clicdxy[1] - mouse_y) )
+Converted description /// @description s_cam_move();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_azar_cosas\s_azar_cosas.gml
+Converted description /// @description s_azar_cosas(densidad, objeto, radio);/// @param densidad
+/// @param  objeto
+/// @param  radio
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_cam_zoom\s_cam_zoom.gml
+Converted builtin - line 18: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 22: view_xview[0] = mx - cx * view_wview[0] -> __view_set( e__VW.XView, 0, mx - cx * view_wview[0] )
+Converted builtin - line 19: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 23: view_yview[0] = my - cy * view_hview[0] -> __view_set( e__VW.YView, 0, my - cy * view_hview[0] )
+Converted builtin - line 18: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 19: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 22: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 20: view_wview[0] = clamp(__view_get( e__VW.WView, 0 ) * rezi, minw, maxw) -> __view_set( e__VW.WView, 0, clamp(__view_get( e__VW.WView, 0 ) * rezi, minw, maxw) )
+Converted builtin - line 23: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 21: view_hview[0] = clamp(__view_get( e__VW.HView, 0 ) * rezi, minh, maxh) -> __view_set( e__VW.HView, 0, clamp(__view_get( e__VW.HView, 0 ) * rezi, minh, maxh) )
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_colision\s_colision.gml
+Converted description /// @description s_colision(id);/// @param id
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_hola\s_udp_hola.gml
+Converted description /// @description s_udp_hola(ip, tiempo);/// @param ip
+/// @param  tiempo
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_shutdown\s_udp_shutdown.gml
+Converted description /// @description s_udp_shutdown(ip, ind_error);/// @param ip
+/// @param  ind_error
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_entes\s_udp_entes.gml
+Converted description /// @description s_udp_entes();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_gui\s_udp_gui.gml
+Converted description /// @description s_udp_gui();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_posicion\s_udp_posicion.gml
+Converted description /// @description s_udp_posicion(ind_player);/// @param ind_player
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_ping\s_udp_ping.gml
+Converted description /// @description s_udp_ping();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_crafting\s_udp_crafting.gml
+Converted description /// @description s_udp_crafting(idweb, herramienta);/// @param idweb
+/// @param  herramienta
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_disparo\s_udp_disparo.gml
+Converted description /// @description s_udp_disparo(x, y, direccion, tipo, dehumano, origen, eshost);/// @param x
+/// @param  y
+/// @param  direccion
+/// @param  tipo
+/// @param  dehumano
+/// @param  origen
+/// @param  eshost
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_udp_intercambio\s_udp_intercambio.gml
+Converted description /// @description s_udp_intercambio(idweb1, idweb2);/// @param idweb1
+/// @param  idweb2
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_conexiones_add\s_conexiones_add.gml
+Converted description /// @description s_conexiones_add(ip, tiempo_ini, clear, nombre);/// @param ip
+/// @param  tiempo_ini
+/// @param  clear
+/// @param  nombre
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_conexiones_del\s_conexiones_del.gml
+Converted description /// @description s_conexiones_del(ind);/// @param ind
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_manejo\s_manejo.gml
+Converted description /// @description s_manejo(id);/// @param id
+String not found: ConversionLog_ConvertedString 5 'W' "W"
+String not found: ConversionLog_ConvertedString 6 'A' "A"
+String not found: ConversionLog_ConvertedString 9 'D' "D"
+String not found: ConversionLog_ConvertedString 16 'S' "S"
+String not found: ConversionLog_ConvertedString 17 'A' "A"
+String not found: ConversionLog_ConvertedString 20 'D' "D"
+String not found: ConversionLog_ConvertedString 27 'A' "A"
+String not found: ConversionLog_ConvertedString 30 'D' "D"
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_idweb\s_idweb.gml
+Converted description /// @description s_idweb(id);/// @param id
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_busqueda\s_busqueda.gml
+Converted description /// @description s_busqueda(id, vision, objetivo);/// @param id
+/// @param  vision
+/// @param  objetivo
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_deme_disponible\s_deme_disponible.gml
+Converted description /// @description s_deme_disponible();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_cambio_fogata\s_cambio_fogata.gml
+Converted description /// @description s_cambio_fogata(suma);/// @param suma
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_en_fogata\s_en_fogata.gml
+Converted description /// @description s_en_fogata();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_crafting\s_crafting.gml
+Converted description /// @description s_crafting(idweb, herramienta);/// @param idweb
+/// @param  herramienta
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_oleada\s_oleada.gml
+Converted description /// @description s_oleada(dificultad, agrupar, tipo_monster, forzagrupo);/// @param dificultad
+/// @param  agrupar
+/// @param  tipo_monster
+/// @param  forzagrupo
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_dado_luna\s_dado_luna.gml
+Converted description /// @description s_dado_luna(grupo_verificable);/// @param grupo_verificable
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_dado_tres\s_dado_tres.gml
+Converted description /// @description s_dado_tres(porcent1, porcent2);/// @param porcent1
+/// @param  porcent2
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_dificultad\s_dificultad.gml
+Converted description /// @description s_dificultad();
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\scripts\s_intercambio\s_intercambio.gml
+Converted description /// @description s_intercambio(id1, id2);/// @param id1
+/// @param  id2
+
+GameMaker Studio 1 font texture has been backed up at D:\Documentos\ProyectosGamTar\Halloweensky\mvc\fonts\d_letra\d_letra.gms1.png
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Create_0.gml
+Converted builtin - line 6: view_xview[0] = (room_width + view_wview[0]) / 2 -> __view_set( e__VW.XView, 0, (room_width + view_wview[0]) / 2 )
+Converted builtin - line 7: view_yview[0] = (room_height + view_hview[0]) / 2 -> __view_set( e__VW.YView, 0, (room_height + view_hview[0]) / 2 )
+Converted builtin - line 24: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 25: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 26: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 25: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 27: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Alarm_0.gml
+Converted description /// @description Open
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Step_1.gml
+Converted builtin - line 82: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 102: view_xview[0] += lengthdir_x(dist, direction) -> __view_set( e__VW.XView, 0, __view_get( e__VW.XView, 0 ) + (lengthdir_x(dist, direction)) )
+Converted builtin - line 83: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 103: view_yview[0] += lengthdir_y(dist, direction) -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (lengthdir_y(dist, direction)) )
+Converted builtin - line 81: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description Control
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Step_0.gml
+Converted description /// @description Editor
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Other_68.gml
+Converted description /// @description UDP
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Other_63.gml
+Converted description /// @description Message
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Other_3.gml
+Converted description /// @description Save
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Draw_73.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 8: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted description /// @description GUI
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_control\Draw_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted description /// @description Sombras
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_casa\Step_0.gml
+Converted builtin - line 3: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 4: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_mouse\Step_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 6: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Converting GML script: D:\Documentos\ProyectosGamTar\Halloweensky\mvc\objects\o_proyectil\Step_0.gml
+Converted builtin - line 43: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 44: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 42: view_wview[0] -> __view_get( e__VW.WView, 0 )
+
+Missing audiogroup for sound: 'a_gallo' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'draw\draw_set_blend_mode.gml'
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script 'view\__view_get.gml'
+Added compatibility script 'view\__view_set.gml'
+Added compatibility script 'view\__view_set_internal.gml'
+Added compatibility script 'view\__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'
